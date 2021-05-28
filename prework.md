@@ -55,7 +55,7 @@ pry(main)> joel.pets
 pry(main)> samson = Pet.new({name: "Samson", type: :dog, age: 3})
 # => #<Pet:0x00007ff8dc1f86a0...>
 
-pry(main)> lucy = Pet.new({name: "Lucy", type: :cat, age: 12})    
+pry(main)> samson = Pet.new({name: "Samson", type: :dog, age: 3})
 # => #<Pet:0x00007ff8dc93e108...>
 
 pry(main)> joel.adopt(samson)

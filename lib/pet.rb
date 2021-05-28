@@ -15,5 +15,4 @@ class Pet
   def feed
     @hunger += 1
   end
-
 end
